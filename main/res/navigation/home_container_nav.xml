@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_container_nav"
+    app:startDestination="@id/fragmentHome">
+    <fragment
+        android:id="@+id/fragmentSecondHome"
+        android:name="com.example.samplerealapp.FragmentSecondHome"
+        android:label="FragmentSecondHome" />
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.example.samplerealapp.FragmentHome"
+        android:label="FragmentHome" >
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentSecondHome"
+            app:destination="@id/fragmentSecondHome" />
+    </fragment>
+</navigation>

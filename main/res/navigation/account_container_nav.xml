@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_container_nav"
+    app:startDestination="@id/fragmentAccountContainer">
+    <fragment
+        android:id="@+id/fragmentAccountContainer"
+        android:name="com.example.samplerealapp.FragmentAccountContainer"
+        android:label="FragmentAccountContainer" />
+</navigation>
